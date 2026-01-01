@@ -8,3 +8,4 @@ class Son(Father,Mother):  # Multilevel skills
     pass
 S1 = Son()
 S1.skills()
+print(Son.mro())
